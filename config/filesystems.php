@@ -36,6 +36,13 @@ return [
             'serve' => true,
             'throw' => false,
         ],
+        
+        'posts' => [
+            'driver' => 'local',
+            'root' => storage_path('app/posts'),
+            'serve' => true,
+            'throw' => false,
+        ],
 
         'public' => [
             'driver' => 'local',
