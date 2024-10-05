@@ -18,3 +18,5 @@ Route::get('/posts/{slug}', function ($slug) {
 
     return view('posts.show', ['post' => $post]);
 });
+
+Route::view('/test', 'app');
