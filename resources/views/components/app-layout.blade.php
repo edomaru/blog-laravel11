@@ -13,7 +13,7 @@
 <body>
   <div class="container mx-auto py-10 px-5">
       <h1 class="text-3xl font-bold">
-        My personal blog
+        <a href="/">{{ config('app.name') }}</a>
       </h1>
 
       {{ $slot }}
